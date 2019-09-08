@@ -87,7 +87,7 @@
             }
 
             const getTodos = () => {
-                fetch('https://salty-beyond-22770.herokuapp.com/getTodos', { method: "get" }).then((response) => {
+                fetch('/getTodos', { method: "get" }).then((response) => {
                     console.log("2nd phase error")
                     alert("2nd phase error")
                     return response.json();

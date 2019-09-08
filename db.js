@@ -6,7 +6,7 @@ const dbname = "crud_mongodb";
 // const url = "mongodb://localhost:27017";
 const url = "mongodb+srv://atta:12345@cluster0-hwwxv.mongodb.net/test?retryWrites=true&w=majority";
 // Options for mongoDB
-const mongoOptions = { useNewUrlParser: true };
+const mongoOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
 const state = {
     db: null
